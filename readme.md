@@ -1,6 +1,5 @@
 # Objective
-# this unix code soln  here 
- The application That I have made Careers Portal. My Objective was To Make This Application Take data from student as job or internship. The Features That I have Give Admin login, To view all the records of the applied internship or job.from user side user can apply as well as we given multiple page about internship or job role for better understanding about role.
+The application That I have made Careers Portal. My Objective was To Make This Application Take data from student as job or internship. The Features That I have Give Admin login, To view all the records of the applied internship or job.from user side user can apply as well as we given multiple page about internship or job role for better understanding about role.
 
 # Technologies Used
 * Frontend: HTML, CSS, Boostrap 4,javascript,Taildwind css
