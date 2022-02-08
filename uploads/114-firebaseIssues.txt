@@ -1,0 +1,102 @@
+
+Fatal Exception: java.lang.RuntimeException
+Unable to start service com.redgates.todonote.schedule.ScheduleService@6e04b92 with null: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+Fatal Exception: java.lang.RuntimeException: Unable to start service com.redgates.todonote.schedule.ScheduleService@6e04b92 with null: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+       at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4145)
+       at android.app.ActivityThread.-wrap26(ActivityThread.java)
+       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1924)
+       at android.os.Handler.dispatchMessage(Handler.java:102)
+       at android.os.Looper.loop(Looper.java:148)
+       at android.app.ActivityThread.main(ActivityThread.java:7325)
+       at java.lang.reflect.Method.invoke(Method.java)
+       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+	   
+	   
+	   
+Caused by java.lang.NullPointerException
+Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+Caused by java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+       at com.redgates.todonote.schedule.ScheduleService.onStartCommand(ScheduleService.java:41)
+       at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:4128)
+       at android.app.ActivityThread.-wrap26(ActivityThread.java)
+       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1924)
+       at android.os.Handler.dispatchMessage(Handler.java:102)
+       at android.os.Looper.loop(Looper.java:148)
+       at android.app.ActivityThread.main(ActivityThread.java:7325)
+       at java.lang.reflect.Method.invoke(Method.java)
+       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120) 
+	   
+	   
+	   
+Fatal Exception: java.lang.RuntimeException
+Unable to start service com.redgates.todonote.schedule.ScheduleService@e633e1b with null: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Intent.getStringExtra(java.lang.String)' on a null object reference
+
+
+
+Fatal Exception: android.util.AndroidRuntimeException
+Calling startActivity() from outside of an Activity context requires the FLAG_ACTIVITY_NEW_TASK flag. Is this really what you want?
+Fatal Exception: android.util.AndroidRuntimeException: Calling startActivity() from outside of an Activity  context requires the FLAG_ACTIVITY_NEW_TASK flag. Is this really what you want?
+       at android.app.ContextImpl.startActivity(ContextImpl.java:747)
+       at android.app.ContextImpl.startActivity(ContextImpl.java:734)
+       at android.content.ContextWrapper.startActivity(ContextWrapper.java:345)
+       at com.redgates.todonote.services.FloatingViewService.onClick(FloatingViewService.java:929)
+       at android.view.View.performClick(View.java:5716)
+       at android.view.View$PerformClick.run(View.java:22596)
+       at android.os.Handler.handleCallback(Handler.java:739)
+       at android.os.Handler.dispatchMessage(Handler.java:95)
+       at android.os.Looper.loop(Looper.java:148)
+       at android.app.ActivityThread.main(ActivityThread.java:7325)
+       at java.lang.reflect.Method.invoke(Method.java)
+       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+	   
+	   
+	   
+Fatal Exception: android.util.AndroidRuntimeException
+Calling startActivity() from outside of an Activity context requires the FLAG_ACTIVITY_NEW_TASK flag. Is this really what you want?
+android.app.ContextImpl.startActivity (ContextImpl.java:747)
+android.app.ContextImpl.startActivity (ContextImpl.java:734)
+android.content.ContextWrapper.startActivity (ContextWrapper.java:345)
+com.redgates.todonote.services.FloatingViewService.onClick (FloatingViewService.java:955)
+android.view.View.performClick (View.java:5716)
+android.view.View$PerformClick.run (View.java:22596)
+android.os.Handler.handleCallback (Handler.java:739)
+android.os.Handler.dispatchMessage (Handler.java:95)
+android.os.Looper.loop (Looper.java:148)
+android.app.ActivityThread.main (ActivityThread.java:7325)
+java.lang.reflect.Method.invoke (Method.java)
+com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1230)
+com.android.internal.os.ZygoteInit.main (ZygoteInit.java:1120)
+
+
+
+Fatal Exception: java.lang.RuntimeException
+Unable to create service com.redgates.todonote.services.FloatingViewService: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@634966 -- permission denied for this window type
+android.app.ActivityThread.handleCreateService (ActivityThread.java:3883)
+android.app.ActivityThread.-wrap8 (ActivityThread.java)
+android.app.ActivityThread$H.handleMessage (ActivityThread.java:1909)
+android.os.Handler.dispatchMessage (Handler.java:102)
+android.os.Looper.loop (Looper.java:148)
+android.app.ActivityThread.main (ActivityThread.java:7325)
+java.lang.reflect.Method.invoke (Method.java)
+com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1230)
+com.android.internal.os.ZygoteInit.main (ZygoteInit.java:1120)
+Caused by android.view.WindowManager$BadTokenException
+Unable to add window android.view.ViewRootImpl$W@634966 -- permission denied for this window type
+android.view.ViewRootImpl.setView (ViewRootImpl.java:920)
+android.view.WindowManagerGlobal.addView (WindowManagerGlobal.java:337)
+android.view.WindowManagerImpl.addView (WindowManagerImpl.java:109)
+com.redgates.todonote.services.FloatingViewService.onCreate (FloatingViewService.java:169)
+android.app.ActivityThread.handleCreateService (ActivityThread.java:3873)
+android.app.ActivityThread.-wrap8 (ActivityThread.java)
+android.app.ActivityThread$H.handleMessage (ActivityThread.java:1909)
+android.os.Handler.dispatchMessage (Handler.java:102)
+android.os.Looper.loop (Looper.java:148)
+android.app.ActivityThread.main (ActivityThread.java:7325)
+java.lang.reflect.Method.invoke (Method.java)
+com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run (ZygoteInit.java:1230)
+com.android.internal.os.ZygoteInit.main (ZygoteInit.java:1120)
+
+
