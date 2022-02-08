@@ -1,5 +1,5 @@
 <nav class=" navbar navbar-expand-md  navbar-dark bg-warning navbar-fixed ">
-            <a class="navbar-brand" href="https://www.redgates.in/"><img src="./css/redgates_logo.png" alt="redgates" style="width:70px;height:57px;"></a>
+            <a class="navbar-brand"><img src="../C_careers_portals/dinars.jpeg" alt="redgates" style="width:70px;height:57px;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
